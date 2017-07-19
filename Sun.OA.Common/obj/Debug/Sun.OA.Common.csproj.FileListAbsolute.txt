@@ -1,0 +1,12 @@
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.Common\bin\Debug\Sun.OA.Common.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.Common\bin\Debug\Sun.OA.Common.pdb
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.Common\obj\Debug\Sun.OA.Common.csprojResolveAssemblyReference.cache
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.Common\obj\Debug\Sun.OA.Common.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.Common\obj\Debug\Sun.OA.Common.pdb
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.Common\bin\Debug\log4net.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.Common\bin\Debug\Commons.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.Common\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.Common\bin\Debug\Memcached.ClientLibrary.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.Common\bin\Debug\Spring.Core.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.Common\bin\Debug\Spring.Core.pdb
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.Common\bin\Debug\Spring.Core.xml

@@ -1,0 +1,26 @@
+﻿<#@ template language="C#" debug="false" hostspecific="true"#>
+<#@ include file="EF.Utility.CS.ttinclude"#>
+<#@ output extension=".cs"#>
+<#  
+const string inputFile = @"..\\Sun.OA.Model\\DataModel.edmx";
+MetadataLoader loader = new MetadataLoader(this);  
+MetadataTools ef = new MetadataTools(this);  
+CodeRegion region = new CodeRegion(this);  
+var itemCollection = loader.CreateEdmItemCollection(inputFile);
+#>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Sun.OA.IDAL
+{
+    public interface IDbSession
+    {
+    <#foreach (EntityType entity in itemCollection.GetItems<EntityType>().OrderBy(e => e.Name)){#>  
+	    I<#=entity.Name#>Dal <#=entity.Name#>Dal {get;}
+    <#}#>
+	int SaveChanges();
+    }
+}

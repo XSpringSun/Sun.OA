@@ -1,0 +1,34 @@
+﻿<#@ template language="C#" debug="false" hostspecific="true"#>
+<#@ include file="EF.Utility.CS.ttinclude"#>
+<#@ output extension=".cs"#>
+<#  
+const string inputFile = @"..\\Sun.OA.Model\\DataModel.edmx";
+MetadataLoader loader = new MetadataLoader(this);  
+MetadataTools ef = new MetadataTools(this);  
+CodeRegion region = new CodeRegion(this);  
+var itemCollection = loader.CreateEdmItemCollection(inputFile);
+#>
+using Sun.OA.DALFactory;
+using Sun.OA.EFDAL;
+using Sun.OA.IBLL;
+using Sun.OA.IDAL;
+using Sun.OA.Model;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Sun.OA.BLL
+{
+<#foreach (EntityType entity in itemCollection.GetItems<EntityType>().OrderBy(e => e.Name)){#>  
+	public partial class <#=entity.Name#>Service : BaseService<<#=entity.Name#>>, I<#=entity.Name#>Service
+	{
+	    public override void SetCurrentDal()
+        {
+            currentDal = DbSession.<#=entity.Name#>Dal;
+        }
+	}
+<#}#>
+}
+    

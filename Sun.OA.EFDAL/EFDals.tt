@@ -1,0 +1,29 @@
+﻿<#@ template language="C#" debug="false" hostspecific="true"#>
+<#@ include file="EF.Utility.CS.ttinclude"#>
+<#@ output extension=".cs"#>
+<#  
+const string inputFile = @"..\\Sun.OA.Model\\DataModel.edmx";
+MetadataLoader loader = new MetadataLoader(this);  
+MetadataTools ef = new MetadataTools(this);  
+CodeRegion region = new CodeRegion(this);  
+var itemCollection = loader.CreateEdmItemCollection(inputFile);
+#>
+using Sun.OA.IDAL;
+using Sun.OA.Model;
+using System;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Sun.OA.EFDAL
+{
+<#foreach (EntityType entity in itemCollection.GetItems<EntityType>().OrderBy(e => e.Name)){#>  
+	public class <#=entity.Name#>Dal : BaseDal<<#=entity.Name#>>, I<#=entity.Name#>Dal
+	{
+	}
+<#}#>
+}
+    

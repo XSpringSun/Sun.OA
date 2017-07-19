@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+<#@ template language="C#" debug="false" hostspecific="true"#>
+<#@ include file="EF.Utility.CS.ttinclude"#>
+<#@ output extension=".xml"#> 
+<#
+const string inputFile = @"..\\Sun.OA.Model\\DataModel.edmx";
+MetadataLoader loader = new MetadataLoader(this);  
+MetadataTools ef = new MetadataTools(this);  
+CodeRegion region = new CodeRegion(this);  
+var itemCollection = loader.CreateEdmItemCollection(inputFile);
+#>
+<#foreach (EntityType entity in itemCollection.GetItems<EntityType>().OrderBy(e => e.Name)){#>
+	<object type="Sun.OA.UI.Portal.Controllers.<#=entity.Name#>Controller,Sun.OA.UI.Portal" singleton="false">
+		<property name="<#=entity.Name#>Service" ref="ref<#=entity.Name#>Service"/>
+	</object>
+<#}#>
+
+</objects>    

@@ -1,0 +1,14 @@
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.DALFactory\bin\Debug\Sun.OA.DALFactory.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.DALFactory\bin\Debug\Sun.OA.DALFactory.pdb
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.DALFactory\bin\Debug\EntityFramework.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.DALFactory\bin\Debug\Sun.OA.EFDAL.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.DALFactory\bin\Debug\Sun.OA.IDAL.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.DALFactory\bin\Debug\Sun.OA.Model.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.DALFactory\bin\Debug\Sun.OA.EFDAL.pdb
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.DALFactory\bin\Debug\Sun.OA.IDAL.pdb
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.DALFactory\bin\Debug\EntityFramework.xml
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.DALFactory\bin\Debug\Sun.OA.Model.pdb
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.DALFactory\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.DALFactory\obj\Debug\Sun.OA.DALFactory.csprojResolveAssemblyReference.cache
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.DALFactory\obj\Debug\Sun.OA.DALFactory.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.DALFactory\obj\Debug\Sun.OA.DALFactory.pdb

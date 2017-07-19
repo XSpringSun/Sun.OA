@@ -1,0 +1,10 @@
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IDAL\bin\Debug\Sun.OA.IDAL.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IDAL\bin\Debug\Sun.OA.IDAL.pdb
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IDAL\bin\Debug\Sun.OA.Model.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IDAL\bin\Debug\EntityFramework.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IDAL\bin\Debug\Sun.OA.Model.pdb
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IDAL\bin\Debug\EntityFramework.xml
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IDAL\obj\Debug\Sun.OA.IDAL.csprojResolveAssemblyReference.cache
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IDAL\obj\Debug\Sun.OA.IDAL.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IDAL\obj\Debug\Sun.OA.IDAL.pdb

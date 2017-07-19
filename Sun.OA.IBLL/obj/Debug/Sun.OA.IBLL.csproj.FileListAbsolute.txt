@@ -1,0 +1,10 @@
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IBLL\bin\Debug\Sun.OA.IBLL.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IBLL\bin\Debug\Sun.OA.IBLL.pdb
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IBLL\bin\Debug\Sun.OA.Model.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IBLL\bin\Debug\EntityFramework.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IBLL\bin\Debug\Sun.OA.Model.pdb
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IBLL\bin\Debug\EntityFramework.xml
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IBLL\obj\Debug\Sun.OA.IBLL.csprojResolveAssemblyReference.cache
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IBLL\obj\Debug\Sun.OA.IBLL.dll
+E:\学习示例代码\MVC\Sun.OA\Sun.OA.IBLL\obj\Debug\Sun.OA.IBLL.pdb
