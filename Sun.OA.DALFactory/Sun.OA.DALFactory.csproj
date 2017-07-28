@@ -44,15 +44,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DalFactory.cs">
-      <DependentUpon>DalFactory.tt</DependentUpon>
+    <Compile Include="TStaticDALFactory.cs">
+      <DependentUpon>TStaticDALFactory.tt</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="DbSession.cs" />
     <Compile Include="DbSessionFactory.cs" />
-    <Compile Include="DbSession1.cs">
-      <DependentUpon>DbSession.tt</DependentUpon>
+    <Compile Include="TDbSession.cs">
+      <DependentUpon>TDbSession.tt</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
@@ -70,13 +70,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DalFactory.tt">
+    <Content Include="TStaticDALFactory.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>DalFactory.cs</LastGenOutput>
+      <LastGenOutput>TStaticDALFactory.cs</LastGenOutput>
     </Content>
-    <Content Include="DbSession.tt">
+    <Content Include="TDbSession.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>DbSession1.cs</LastGenOutput>
+      <LastGenOutput>TDbSession.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

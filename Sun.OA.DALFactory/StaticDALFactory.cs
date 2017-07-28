@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Sun.OA.DALFactory
 {
+    //部分类，防止T4模板生成的时候覆盖
     public partial class StaticDALFactory
     {
         //彻底解耦 抽象工厂，用反射程序集创建对象

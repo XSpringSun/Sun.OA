@@ -44,10 +44,10 @@
   <ItemGroup>
     <Compile Include="BaseDal.cs" />
     <Compile Include="DbContextFactory.cs" />
-    <Compile Include="EFDals.cs">
-      <DependentUpon>EFDals.tt</DependentUpon>
+    <Compile Include="EFDALs1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
+      <DependentUpon>EFDALs.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -62,9 +62,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EFDals.tt">
+    <Content Include="EFDALs.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>EFDals.cs</LastGenOutput>
+      <LastGenOutput>EFDALs1.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

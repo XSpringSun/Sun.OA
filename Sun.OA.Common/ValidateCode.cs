@@ -11,6 +11,7 @@ using System.Web;
 
 namespace Sun.OA.Common
 {
+    //验证码生成
     public class ValidateCode
     {
         /// <summary>

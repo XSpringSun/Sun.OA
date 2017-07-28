@@ -7,6 +7,7 @@ using System.Web;
 
 namespace Sun.OA.Common.Cache
 {
+    //用HttpRuntime写缓存（例子）
     public class HttpRuntimeCacheWriter : ICacheWriter
     {
         public void AddCache(string key, object value)
